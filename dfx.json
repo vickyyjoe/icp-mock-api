@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "mock_api_backend": {
+      "candid": "src/mock_api_backend/mock_api_backend.did",
+      "package": "mock_api_backend",
+      "type": "rust"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
