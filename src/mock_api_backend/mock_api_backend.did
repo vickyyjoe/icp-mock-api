@@ -1,0 +1,21 @@
+type Request = record {
+    method: text;
+    payload: blob;
+};
+
+type Response = record {
+    status: nat64;     // Use nat or nat64 as appropriate
+    body: blob;
+};
+
+type Route = record {
+    route: text;
+    request: Request;
+    expected_response: Response;
+};
+
+service : {
+    add_route: (text, Request, Response) -> ();
+    get_routes: () -> (vec Route);
+    edit_route: (text, Request, Response) -> ();
+};
