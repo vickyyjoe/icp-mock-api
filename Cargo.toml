@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/mock_api_backend"
+]
+resolver = "2"
