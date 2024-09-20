@@ -1,6 +1,6 @@
 # Mock API
 
-This project provides a mock API to manage routes, allowing you to add, edit, and retrieve route information. It is built using Rust and runs on the Internet Computer.
+This project provides a mock API to manage routes, allowing you to add, edit, and retrieve route information. It is built using Rust and runs on the Internet Computer. This mock API allows for easy management of routes for testing purposes. Feel free to extend its functionality as needed!
 
 ## Features
 
